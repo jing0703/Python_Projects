@@ -18,13 +18,13 @@ The greatest decrease in revenue (date and amount) over the entire period
 
 As an example, your analysis should look similar to the one below:
 
-Financial Analysis
+'Financial Analysis
 ----------------------------
 Total Months: 25
 Total Revenue: $1241412
 Average Revenue Change: $216825
 Greatest Increase in Revenue: Sep-16 ($815531)
-Greatest Decrease in Revenue: Aug-12 ($-652794)
+Greatest Decrease in Revenue: Aug-12 ($-652794)'
 
 Your final script must be able to handle any such similarly structured dataset in the future (your boss is going to give you more of these -- so your script has to work for the ones to come). In addition, your final script should both print the analysis to the terminal and export a text file with the results.
 
