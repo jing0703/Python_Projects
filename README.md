@@ -1,20 +1,8 @@
 # Python_Projects
 
-It's time to put away the Excel sheet and join the big leagues. Welcome to the world of programming with Python. In this homework assignment, you'll be using the concepts you've learned to complete 2 of 4 Python Challenges. Which ones you choose are completely your choice. In fact, feel encouraged to complete them all if you can muster the time.
+## Task 1: PyBank
 
-Each of these challenges encompasses a real-world situation where your newfound Python scripting skills can come in handy. These challenges are far from easy so expect some hard work ahead!
-
-Before You Begin
-Create a new GitHub repo called python-challenge. Then, clone it to your computer.
-
-Inside your local git repository, create a directory for 2 of the 4 Python Challenges. Use folder names corresponding to the 2 challenges that you have chosen to complete: PyBank, PyPoll, PyBoss, or PyParagraph.
-
-Inside of each folder that you just created, add a new file called main.py. This will be the main script to run for each analysis.
-
-Push the above changes to GitHub.
-
-Option 1: PyBank
-In this challenge, you are tasked with creating a Python script for analyzing the financial records of your company. You will be given two sets of revenue data (budget_data_1.csv and budget_data_2.csv). Each dataset is composed of two columns: Date and Revenue. (Thankfully, your company has rather lax standards for accounting so the records are simple.)
+This challenge is to create a Python script for analyzing the financial records of your company. You will be given two sets of revenue data (budget_data_1.csv and budget_data_2.csv). Each dataset is composed of two columns: Date and Revenue.
 
 Your task is to create a Python script that analyzes the records to calculate each of the following:
 
@@ -37,9 +25,11 @@ Total Revenue: $1241412
 Average Revenue Change: $216825
 Greatest Increase in Revenue: Sep-16 ($815531)
 Greatest Decrease in Revenue: Aug-12 ($-652794)
+
 Your final script must be able to handle any such similarly structured dataset in the future (your boss is going to give you more of these -- so your script has to work for the ones to come). In addition, your final script should both print the analysis to the terminal and export a text file with the results.
 
-Option 2: PyPoll
+## Task 2: PyPoll
+
 In this challenge, you are tasked with helping a small, rural town modernize its vote-counting process. (Up until now, Uncle Cleetus had been trustfully tallying them one-by-one, but unfortunately, his concentration isn't what it used to be.)
 
 You will be given two sets of poll data (election_data_1.csv and election_data_2.csv). Each dataset is composed of three columns: Voter ID, County, and Candidate. Your task is to create a Python script that analyzes the votes and calculates each of the following:
@@ -67,9 +57,11 @@ Higgins: 6.0% (37206)
 -------------------------
 Winner: Gomez
 -------------------------
+
 Your final script must be able to handle any such similarly-structured dataset in the future (i.e you have zero intentions of living in this hillbilly town -- so your script needs to work without massive re-writes). In addition, your final script should both print the analysis to the terminal and export a text file with the results.
 
-Option 3: PyBoss
+## Task 3: PyBoss
+
 In this challenge, you get to be the boss. You oversee hundreds of employees across the country developing Tuna 2.0, a world-changing snack food based on canned tuna fish. Alas, being the boss isn't all fun, games, and self-adulation. The company recently decided to purchase a new HR system, and unfortunately for you, the new system requires employee records be stored completely differently.
 
 Your task is to help bridge the gap by creating a Python script able to convert your employee records to the required format. Your script will need to do the following:
@@ -84,6 +76,7 @@ Emp ID,First Name,Last Name,DOB,SSN,State
 214,Sarah,Simpson,12/04/1985,***-**-8166,FL
 15,Samantha,Lara,09/08/1993,***-**-7526,CO
 411,Stacy,Charles,12/20/1957,***-**-8526,PA
+
 In summary, the required conversions are as follows:
 
 The Name column should be split into separate First Name and Last Name columns.
@@ -96,7 +89,8 @@ The State data should be re-written as simple two-letter abbreviations.
 
 Special Hint: You may find this link to be helpful—Python Dictionary for State Abbreviations.
 
-Option 4: PyParagraph
+## Task 4: PyParagraph
+
 In this challenge, you get to play the role of chief linguist at a local learning academy. As chief linguist, you are responsible for assessing the complexity of various passages of writing, ranging from the sophomoric Twilight novel to the nauseatingly high-minded research article. Having read so many passages, you've since come up with a fairly simple set of metrics for assessing complexity.
 
 Your task is to create a Python script to automate the analysis of any such passage using these metrics. Your script will need to do the following:
