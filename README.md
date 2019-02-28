@@ -17,15 +17,15 @@ The greatest increase in revenue (date and amount) over the entire period
 The greatest decrease in revenue (date and amount) over the entire period
 
 As an example, your analysis should look similar to the one below:
-
-'Financial Analysis
+```
+Financial Analysis
 ----------------------------
 Total Months: 25
 Total Revenue: $1241412
 Average Revenue Change: $216825
 Greatest Increase in Revenue: Sep-16 ($815531)
-Greatest Decrease in Revenue: Aug-12 ($-652794)'
-
+Greatest Decrease in Revenue: Aug-12 ($-652794)
+```
 Your final script must be able to handle any such similarly structured dataset in the future (your boss is going to give you more of these -- so your script has to work for the ones to come). In addition, your final script should both print the analysis to the terminal and export a text file with the results.
 
 ## Task 2: PyPoll
@@ -45,7 +45,7 @@ The total number of votes each candidate won
 The winner of the election based on popular vote.
 
 As an example, your analysis should look similar to the one below:
-
+```
 Election Results
 -------------------------
 Total Votes: 620100
@@ -57,7 +57,7 @@ Higgins: 6.0% (37206)
 -------------------------
 Winner: Gomez
 -------------------------
-
+```
 Your final script must be able to handle any such similarly-structured dataset in the future (i.e you have zero intentions of living in this hillbilly town -- so your script needs to work without massive re-writes). In addition, your final script should both print the analysis to the terminal and export a text file with the results.
 
 ## Task 3: PyBoss
@@ -67,6 +67,7 @@ In this challenge, you get to be the boss. You oversee hundreds of employees acr
 Your task is to help bridge the gap by creating a Python script able to convert your employee records to the required format. Your script will need to do the following:
 
 Import the employee_data1.csv and employee_data2.csv files, which currently holds employee records like the below:
+```
 Emp ID,Name,DOB,SSN,State
 214,Sarah Simpson,1985-12-04,282-01-8166,Florida
 15,Samantha Lara,1993-09-08,848-80-7526,Colorado
@@ -76,7 +77,7 @@ Emp ID,First Name,Last Name,DOB,SSN,State
 214,Sarah,Simpson,12/04/1985,***-**-8166,FL
 15,Samantha,Lara,09/08/1993,***-**-7526,CO
 411,Stacy,Charles,12/20/1957,***-**-8526,PA
-
+```
 In summary, the required conversions are as follows:
 
 The Name column should be split into separate First Name and Last Name columns.
@@ -112,13 +113,14 @@ As an example, this passage:
 “Adam Wayne, the conqueror, with his face flung back and his mane like a lion's, stood with his great sword point upwards, the red raiment of his office flapping around him like the red wings of an archangel. And the King saw, he knew not how, something new and overwhelming. The great green trees and the great red robes swung together in the wind. The preposterous masquerade, born of his own mockery, towered over him and embraced the world. This was the normal, this was sanity, this was nature, and he himself, with his rationality, and his detachment and his black frock-coat, he was the exception and the accident - a blot of black upon a world of crimson and gold.”
 
 ...would yield these results:
-
+```
 Paragraph Analysis
 -----------------
 Approximate Word Count: 122
 Approximate Sentence Count: 5
 Average Letter Count: 4.56557377049
 Average Sentence Length: 24.4
+```
 Special Hint: You may find this code snippet helpful when determining sentence length (look into regular expressions if interested in learning more):
 import re
 re.split("(?&lt;=[.!?]) +", paragraph)
